@@ -31,8 +31,10 @@ client.on('message', msg => {
     //Loop to look at all blacklisted words
     for(i=0;i<arrayOfNo.length;i++){
         
+      let temp= msg.content.toLowerCase().replace(" ","");
+
       //When blacklisted word is found
-      if(msg.content.toLowerCase().includes(arrayOfNo[i])){
+      if(temp.includes(arrayOfNo[i])){
           
 
 
