@@ -3,9 +3,9 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 //Constants & variables
-const  roleName = "Muzzle of Shame";
+const roleName = "Muzzle of Shame";
 const emoteNames = ["downvote","upvote"];
-const  botToken = "ODQ4MDM4NjI1MzA3Mzk0MTM4.YLGzhA.tNzw8cu9uTrHMXOJlTvMFntxHH8";
+const botToken = "";
 const arrayOfNo =["this","th1s","thi5","th15","7his","7h15","7h1s","7hi5","th*s","*his","t*is","thi*","th*5","th1*","th**","t***","**i*","*h**","***s",
                   "ratio","r4tio","rat1o","rati0","ratlo","r*tio","rat*o","rati*","r4t1o","rat10","r4ti0","r4t10","r*ti*"];
 let i=0;
